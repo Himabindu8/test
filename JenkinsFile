@@ -1,0 +1,14 @@
+pipelne
+{
+agent {
+stages{
+stage('Hello from git')
+{
+steps{
+echo "hello world!!!!"
+
+}
+}
+}
+}
+}
