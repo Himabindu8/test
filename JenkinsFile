@@ -1,5 +1,5 @@
 pipeline{
-agent {
+agent (label 'maven'){
    stages{
      stage('Hello from git'){
            steps{
